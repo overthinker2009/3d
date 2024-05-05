@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Gilroy-Bold ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Bold ☞'), url('Gilroy-Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gilroy-Heavy ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Heavy ☞'), url('Gilroy-Heavy.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gilroy-Light ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Light ☞'), url('Gilroy-Light.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gilroy-Medium ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Medium ☞'), url('Gilroy-Medium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Gilroy-Regular ☞';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Gilroy-Regular ☞'), url('Gilroy-Regular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: url('HelveticaNeueCyr-Heavy.eot');
+    src: local('HelveticaNeueCyr-Heavy'),
+        url('HelveticaNeueCyr-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNeueCyr-Heavy.woff') format('woff'),
+        url('HelveticaNeueCyr-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family:'Monsterratbold';
+    src: url(./Montserrat-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family:'Monsterratregular';
+    src: url(./Montserrat-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family:'Monsterratsemibold';
+    src: url(./Montserrat-SemiBold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+:root {
+    --font-family: "Gotham Pro", sans-serif;
+    --second-family: "Gilroy", sans-serif;
+    --third-family: "Montserrat", sans-serif;
+    --font3: "HelveticaNeueCyr", sans-serif;
+  }
