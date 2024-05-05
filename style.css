@@ -390,3 +390,87 @@ header {
     height: 60px;
     background-color: #393C57;
 }
+
+.dostup {
+    margin-left: 250px;
+    margin-top: 24px;
+    font-family: var(--second-family);
+    font-weight: 900;
+    font-size: 21px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border-radius: 8px;
+    width: 458px;
+    height: 60px;
+    background: #e2521d;
+}
+
+.soglasiya {
+    display: flex;
+    margin-left: 250px;
+    margin-top: 24px;
+}
+
+.sog-t {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.wtf {
+    margin-top: 66px;
+    display: flex;
+    width: 944px;
+    height: 140px;
+}
+
+.w-t {
+
+    width: 233px;
+    height: 140px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.oplata {
+    margin-left: 97px;
+    width: 300px;
+    height: 141px;
+}
+
+.ot {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.damn-t {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+.politika {
+    width: 223px;
+    height: 140px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    margin-left: 101px;
+}
