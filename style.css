@@ -1,20 +1,55 @@
 @import url(./fonts/style.css);
 
+
+:root {
+    --font-family: "Gotham Pro", sans-serif;
+    --second-family: "Gilroy", sans-serif;
+    --third-family: "Montserrat", sans-serif;
+    --font3: "HelveticaNeueCyr", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header {
+body {
+    overflow-x: hidden;
     background-color: #252237;
+    ;
 }
 
-.container {
+.header {
+    background-color: #252237;
     background-image: url(./images/walle.jpg);
-    height: 100vh;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+@media(max-width:540px) {
+    .header {
+        background-image: url(./images/walle-m.jpg);
+    }
+}
+
+
+
+.container {
+
+    max-width: 1440px;
+    padding: 50px;
+    margin: 0 auto;
+
+}
+
+@media (max-width: 380px) {
+    .container {
+        padding: 10px;
+
+    }
 }
 
 .iqmo {
@@ -27,6 +62,15 @@ header {
     margin-top: 92px;
     margin-left: 199px;
     gap: 51px;
+    max-width: 435px;
+
+
+}
+
+@media(max-width:780px) {
+    .c-t {
+        margin-left: 0;
+    }
 }
 
 .concept {
@@ -40,12 +84,37 @@ header {
     width: 352px;
 }
 
+@media (max-width: 540px) {
+    .concept {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 100%;
+        letter-spacing: -0.06em;
+        text-transform: uppercase;
+        color: #fff;
+        display: flex;
+        width: 302px;
+    }
+}
+
 .con-t {
     font-family: var(--third-family);
     font-weight: 400;
     font-size: 20px;
     color: #fff;
     width: 433px;
+}
+
+@media(max-width:540px) {
+    .con-t {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 204%;
+        color: #fff;
+        width: 290px;
+    }
 }
 
 .course {
@@ -57,18 +126,73 @@ header {
     text-transform: uppercase;
     text-align: center;
     color: #fff;
-    width: 367px;
-    height: 80px;
+    max-width: 367px;
     box-shadow: 0 0 55px 0 rgba(202, 0, 80, 0.51);
     background: #e2521d;
+    text-align: center;
+    margin: 0 auto;
+    padding: 14px;
+}
+
+@media(max-width:540px) {
+    .course {
+        font-family: var(--font3);
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 243%;
+        letter-spacing: 0.21em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        box-shadow: 0 0 55px 0 rgba(202, 0, 80, 0.51);
+        background: #e2521d;
+    }
 }
 
 .eve {
     display: flex;
-    margin-left: 194px;
-    width: 1073px;
-    height: 505px;
+    margin: 0 auto;
+    max-width: 1073px;
+
+    background-repeat: no-repeat;
 }
+
+@media(max-width:540px) {
+    .eve {
+        padding: 10px;
+        max-width: 1073px;
+
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.eve-img {
+    background-image: url(./images/eve.png);
+    width: 449px;
+
+}
+
+@media(max-width:540px) {
+    .eve-img {
+        background-image: url(./images/eve-m.png);
+        background-repeat: no-repeat;
+        width: 242px;
+        height: 272px;
+    }
+}
+
+
+.e-t {
+    max-width: 572px;
+
+
+}
+
+@media(max-width:540px) {
+    .e-t {}
+}
+
 
 
 
@@ -81,6 +205,16 @@ header {
     color: #fff;
 }
 
+@media (max-width:540px) {
+    .ab-c {
+        font-family: var(--third-family);
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 147%;
+        color: #fff;
+    }
+}
+
 .red-t {
     margin-top: 80px;
     font-family: var(--font-family);
@@ -88,7 +222,18 @@ header {
     font-size: 25px;
     line-height: 160%;
     color: #e2521d;
-    width: 572px;
+
+}
+
+@media(max-width:540px) {
+    .red-t {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 189%;
+        color: #f54b31;
+        width: 300px;
+    }
 }
 
 .g-t {
@@ -100,9 +245,28 @@ header {
     color: #8997ab;
 }
 
+@media(max-width:540px) {
+    .g-t {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 204%;
+        color: #8997ab;
+    }
+}
+
+
 .learn {
     margin-top: 66px;
     margin-left: 301px;
+}
+
+@media (max-width:540px) {
+    .learn {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
 }
 
 .lh-t {
@@ -117,12 +281,25 @@ header {
     color: #fff;
 }
 
+@media(max-width:540px) {
+    .lh-t {
+        margin-left: 0;
+    }
+}
+
 .things {
     margin-top: 88px;
     display: flex;
     justify-content: space-between;
     width: 933px;
+}
 
+@media(max-width:540px) {
+    .things {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
 }
 
 .b-t {
@@ -154,6 +331,17 @@ header {
     width: 412px;
 }
 
+
+@media(max-width:540px) {
+    .u-t {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 204%;
+        color: #fff;
+    }
+}
+
 .t-t {
     font-family: var(--font-family);
     font-weight: 500;
@@ -178,6 +366,12 @@ header {
     margin-top: 115px;
 }
 
+@media (max-width:540px) {
+    .program {
+        margin-left: 80px;
+    }
+}
+
 
 .p-t {
     width: 314px;
@@ -199,6 +393,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media(max-width:540px) {
+    .block {
+        border-radius: 2px;
+        width: 300px;
+        height: 100px;
+        background: #f54b31;
+    }
 }
 
 .osnova {
@@ -229,11 +432,34 @@ header {
     margin-top: 40px;
 }
 
-.for {
+@media(max-width:540px) {
+    .block-g {
+        border-radius: 2px;
+        width: 300px;
+        height: 100px;
+        background: #0e1b28;
+    }
+}
+
+
+.for-img {
     background-image: url(./images/walli.jpg);
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+}
+
+.for {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width:540px) {
+    .for-img {
+        background-image: url(./images/wall.png);
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
 
 .f-t {
@@ -243,13 +469,14 @@ header {
     line-height: 124%;
     text-align: center;
     color: #fff;
+
 }
 
 .for-t {
-
-    margin-left: 683px;
     display: flex;
     flex-direction: column;
+    max-width: 572px;
+    margin-left: auto;
 }
 
 .g-t2 {
@@ -262,11 +489,26 @@ header {
     margin-top: 50px;
 }
 
+@media(max-width:540px) {
+    .g-t2 {
+        width: 300px;
+    }
+}
+
 .proccess {
     height: 762px;
     margin-left: 269px;
     margin-top: 43px;
     display: flex;
+}
+
+@media (max-width:540px) {
+    .proccess {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        padding: 20px;
+    }
 }
 
 .p-text {
@@ -276,6 +518,12 @@ header {
     line-height: 124%;
     color: #fff;
     margin-left: 500px;
+}
+
+@media(max-width:540px) {
+    .p-text {
+        margin-left: 50px;
+    }
 }
 
 .l-t {
@@ -296,12 +544,26 @@ header {
     width: 470px;
 }
 
+
+@media (max-width:540px) {
+    .l-t2 {
+        width: 295px;
+    }
+}
+
 .nastavnik {
     margin-top: 62px;
 }
 
 .twom2 {
     margin-left: 80px;
+}
+
+
+@media (max-width:540px) {
+    .twom2 {
+        margin-left: 0;
+    }
 }
 
 .zapis {
@@ -311,11 +573,31 @@ header {
     margin-left: 200px;
 }
 
+
+@media(max-width:540px) {
+    .zapis {
+        margin-top: 1000px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .zakaz {
     width: 1044px;
     height: 177px;
     background: #e2521d;
 }
+
+@media(max-width:540px) {
+    .zakaz {
+        width: 348px;
+        height: 177px;
+        background: #f54b31;
+        padding: 30px;
+    }
+}
+
 
 .z-t {
     font-family: var(--font-family);
@@ -337,10 +619,23 @@ header {
     display: flex;
 }
 
+@media(max-width:540px) {
+    .ts1 {
+        padding-top: 40px;
+    }
+}
+
 .tikers {
     margin-top: 36px;
     display: flex;
     justify-content: space-between;
+}
+
+@media(max-width:540px) {
+    .tikers {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .t1 {
@@ -366,6 +661,14 @@ header {
     height: 516px;
 }
 
+@media(max-width:540px) {
+    .footer {
+        margin-left: 0;
+        margin-top: 300px;
+    }
+}
+
+
 .text {
     margin-left: 189px;
     font-family: var(--second-family);
@@ -373,6 +676,20 @@ header {
     font-size: 20px;
     line-height: 140%;
     color: #fff;
+}
+
+@media (max-width:540px) {
+    .text {
+        font-family: var(--second-family);
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        text-align: center;
+        color: #fff;
+        margin-left: 70px;
+        width: 306px;
+
+    }
 }
 
 .s29 {
@@ -391,6 +708,15 @@ header {
     background-color: #393C57;
 }
 
+@media(max-width:540px) {
+    .email {
+        margin-left: 0;
+        width: 301px;
+        margin-left: 80px;
+
+    }
+}
+
 .dostup {
     margin-left: 250px;
     margin-top: 24px;
@@ -406,10 +732,25 @@ header {
     background: #e2521d;
 }
 
+@media(max-width:540px) {
+    .dostup {
+        width: 301px;
+        height: 60px;
+        margin-left: 80px;
+    }
+}
+
 .soglasiya {
     display: flex;
     margin-left: 250px;
     margin-top: 24px;
+}
+
+@media (max-width:540px) {
+    .soglasiya{
+        margin-left: 20px;
+        width: 309px;
+    }
 }
 
 .sog-t {
@@ -425,6 +766,14 @@ header {
     display: flex;
     width: 944px;
     height: 140px;
+}
+
+@media (max-width:540px) {
+    .wtf{
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+    }
 }
 
 .w-t {
@@ -443,6 +792,13 @@ header {
     margin-left: 97px;
     width: 300px;
     height: 141px;
+}
+
+@media (max-width:540px) {
+    .oplata{
+        margin-left: 0;
+        padding-top:20px ;
+    }
 }
 
 .ot {
@@ -473,4 +829,11 @@ header {
     letter-spacing: 0.01em;
     color: #fff;
     margin-left: 101px;
+}
+
+@media (max-width:540px) {
+    .politika{
+        margin-left: 0;
+        padding-top:20px ;
+    }
 }
