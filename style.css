@@ -299,6 +299,13 @@ body {
         display: flex;
         flex-direction: column;
         padding: 10px;
+        width: 306px;
+    }
+}
+
+@media (max-width:540px) {
+    .platform{
+        width: 306px;
     }
 }
 
@@ -369,9 +376,15 @@ body {
 @media (max-width:540px) {
     .program {
         margin-left: 80px;
+        width: 306px;
     }
 }
 
+@media(max-width:540px){
+    form{
+        width: 306px;
+    }
+}
 
 .p-t {
     width: 314px;
@@ -383,6 +396,12 @@ body {
     text-align: center;
     color: #fff;
     margin-left: 350px;
+}
+
+@media(max-width:540px){
+    .p-t{
+        margin-left: 40px;
+    }
 }
 
 .block {
@@ -580,6 +599,7 @@ body {
         margin-left: 50px;
         display: flex;
         flex-direction: column;
+        width: 306px;
     }
 }
 
@@ -622,6 +642,7 @@ body {
 @media(max-width:540px) {
     .ts1 {
         padding-top: 40px;
+        width: 306px;
     }
 }
 
@@ -635,6 +656,7 @@ body {
     .tikers {
         display: flex;
         flex-direction: column;
+        width: 306px;
     }
 }
 
@@ -665,6 +687,7 @@ body {
     .footer {
         margin-left: 0;
         margin-top: 300px;
+        width: 306px;
     }
 }
 
@@ -773,6 +796,7 @@ body {
         display: flex;
         flex-direction: column;
         margin-left: 70px;
+        width: 306px;
     }
 }
 
@@ -835,5 +859,19 @@ body {
     .politika{
         margin-left: 0;
         padding-top:20px ;
+    }
+}
+
+
+@media(max-width:540px){
+    .spisok{
+        width: 310px;
+    }
+}
+
+
+@media(max-width:540px){
+    .two{
+        width: 306px;
     }
 }
