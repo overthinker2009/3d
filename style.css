@@ -283,7 +283,7 @@ body {
 
 @media(max-width:540px) {
     .lh-t {
-        margin-left: 0;
+        margin-left: -10px;
     }
 }
 
@@ -400,7 +400,7 @@ body {
 
 @media(max-width:540px){
     .p-t{
-        margin-left: 40px;
+        margin-left: -30px;
     }
 }
 
@@ -589,7 +589,7 @@ body {
     width: 1044px;
     height: 274px;
     margin-top: 92px;
-    margin-left: 200px;
+    margin-left: 223px;
 }
 
 
@@ -685,7 +685,7 @@ body {
 
 @media(max-width:540px) {
     .footer {
-        margin-left: 0;
+        margin-left: -15px;
         margin-top: 300px;
         width: 306px;
     }
@@ -866,6 +866,7 @@ body {
 @media(max-width:540px){
     .spisok{
         width: 310px;
+        margin-left: -40px;
     }
 }
 
@@ -874,4 +875,9 @@ body {
     .two{
         width: 306px;
     }
+}
+
+
+.u-t{
+    width: 300px;
 }
